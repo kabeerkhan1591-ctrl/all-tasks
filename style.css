@@ -1,0 +1,14 @@
+.nav{
+
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+
+.nav:hover{
+
+    color: firebrick;
+    
+
+}
