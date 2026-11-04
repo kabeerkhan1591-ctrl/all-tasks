@@ -3,6 +3,8 @@ body {
     margin: 0;
     background-color: white;
     overflow-x: hidden;
+    margin:0px;
+    padding:0px;
 }
 
 /* HERO SECTION */
@@ -11,12 +13,14 @@ body {
     width: 100%;
     min-height: 650px;
 
-    background-image: url('https://static.vecteezy.com/system/resources/previews/027/002/077/large_2x/airplane-in-the-airport-at-sunset-with-reflection-on-the-ground-a-large-jetliner-taking-landing-an-airport-runway-at-sunset-or-dawn-with-the-landing-gear-down-ai-generated-free-photo.jpg');
+    background-image: url('https://static1.simpleflyingimages.com/wordpress/wp-content/uploads/2024/06/emirates-a380-abid-habib.jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 30px;
+    margin: top 0px;
+    padding-top: 0px;
 }
 
 .container-1 {
@@ -27,7 +31,7 @@ body {
 
 .head1 {
     text-align: center;
-    padding-top: 180px;
+    padding-top: 190px;
     color: white;
     font-size: 35px;
     font-family: system-ui, sans-serif;
