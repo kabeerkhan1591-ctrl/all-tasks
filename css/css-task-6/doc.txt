@@ -1,0 +1,22 @@
+COMBINATOR ARE UPGRADED VERSION OF SELECTORS:
+
+1: DESCENDENT COMBINATOR (SPACE);
+THE DESCENDENT COMBINATOR MATCHES ALL ELEMENTS
+THAT ARE DESCENDENTOF THE SPECIFIED ELEMENTS
+LIKE WHEN WE MAKE AN DIV AND THEN IN CSS WE MAKE IT LIKE 
+DIV P THE WHOLE DIV WITH P GOT BACKGROUND COLOR IF U ADD THE COLORS.
+
+2: CHILD COMBINATOR (>);
+SELECT ALL ELEMENTS THAT ARE THE CHILDREN OF A SPECIFIED ELEMENTS
+THIS IS SAME AS DESCENDENT BECAUSE FOR EX YOU CREATE AN DIV INSIDE IT YOU WROTE DOUBLE PARAGRAPH THEN U 
+GIVE BG COLOR THE BOTH TAKE THE COLOR IF THE P OR H1 TO H6 INSIDE THE PARENT DIV.
+
+3:ADJACENT COMBINATOR (+);
+Adjacent sibling used to select an element that is directly after another SPECIFIED ELEMENTS
+that is use for that u target h2 + p and then there is another p so the last p will not get bg color bcs the
+Adjacent says after another thats why.
+
+4: General Sibling combinator (~)
+select all element that are next sibling of a specific element
+this is use for like when there are in div u typpe h1 p span p so u think that last will not 
+get colored but your wrong bcs that how General combinator works when u write in css General h2 ~ p so the all p got the BACKGROUND color,
