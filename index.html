@@ -1,78 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Development Tasks</title>
-    <link rel="stylesheet" href="style.css">
+    <title>M.KABEER KHAN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Poppins:wght@400;500;600&family=Victor+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <header>
-        <h2>MY<span>CODE.</span></h2>
-        <p>MY WEB DEVELOPMENT JOURNEY</p>
-    </header>
+<header class="container-1">
+    <h1 class="name">
+        <span class="first">M.KABEER</span> <span class="last">KHAN</span>
+    </h1>
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#tasks">TASKS</a></li>
+            <li><a href="./taskhackhathon.html">HACKATHONS</a></li>
+            <li><a href="https://github.com/kabeerkhan1591-ctrl" target="_blank" rel="noopener">GITHUB</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <section class="hero">
-        <h1>Welcome to My <span>Workspace.</span></h1>
-        <p>
-            Explore my web development tasks, projects and
-            coding journey through HTML and CSS.
-        </p>
-    </section>
+<section class="about" id="about">
+    <h1>ABOUT ME</h1>
+    <p class="paragraph">
+        Hello, I am
+        <span class="highlight">Kabeer Khan</span>,
+        a dedicated web development student from Hyderabad, Pakistan. I am learning
+        web development at SMIT under the guidance of
+        <span class="highlight">Sir Sheraz Qureshi</span>.
+        I enjoy turning ideas into clean, responsive websites using HTML and CSS, and
+        I am now learning JavaScript to make my projects more interactive. I use VS
+        Code and GitHub every day to write, test, and share my work. Taking part in
+        hackathons has taught me teamwork and problem solving. My goal is to become a
+        skilled front-end developer who creates modern, user-friendly designs.
+    </p>
+    <hr>
+</section>
 
-    <h2 class="section-title">EXPLORE MY WORK</h2>
+<h2 class="heading">MY HTML, CSS TASKS AND HACKATHONS</h2>
 
-    <div class="main-container">
-
-
-        <div class="card">
-
-            <div class="image-box">
-                <img src="./images/HTML5 Shield Logo on Transparent Background.png" alt="HTML5 Logo">
-            </div>
-
-            <h2>HTML5</h2>
-
-            <p>
-                Explore my HTML tasks, structures,
-                elements and basic web development projects.
-            </p>
-
-            <a href="./taskshtml.html" class="btn">
-                Explore HTML Tasks →
-            </a>
-
-        </div>
-
-
-
-        <div class="card">
-
-            <div class="image-box">
-                <img src="./images/CSS3 Shield Logo on Transparent Background.png" alt="CSS3 Logo">
-            </div>
-
-            <h2>CSS3</h2>
-
-            <p>
-                Explore my CSS tasks, styling,
-                layouts, animations and responsive designs.
-            </p>
-
-            <a href="./taskcss1.html" class="btn">
-                Explore CSS Tasks →
-            </a>
-
-        </div>
-
+<main class="main" id="tasks">
+    <div class="child1">
+        <img src="./images/HTML5 Shield Logo on Transparent Background.png" alt="HTML5 logo" class="img1">
+        <p class="para">MY HTML TASKS CLICK BELOW BUTTON TO PREVIEW</p>
+        <a href="./taskshtml.html" class="anchor">PREVIEW MY HTML TASKS</a>
     </div>
 
-    <footer>
-        <p>© 2026 MYCODE. All Rights Reserved.</p>
-        <p>Designed & Developed by MUHAMMAD KABEER KHAN.</p>
-    </footer>
+    <div class="child1">
+        <img src="./images/CSS3 Shield Logo on Transparent Background.png" alt="CSS3 logo" class="img1">
+        <p class="para">MY CSS TASKS CLICK BELOW BUTTON TO PREVIEW</p>
+        <a href="./taskcss1.html" class="anchor">PREVIEW MY CSS TASKS</a>
+    </div>
+
+    <div class="child1">
+        <img src="./images/Code, Build, Innovate Hackathon.png" alt="Hackathon banner" class="img1">
+        <p class="para">MY HACKATHONS CLICK BELOW BUTTON TO PREVIEW</p>
+        <a href="./taskhackhathon.html" class="anchor">PREVIEW MY HACKATHONS</a>
+    </div>
+</main>
+<hr>
+<footer style="text-align: center; padding-top: 50px; margin-top: 100px; font-size: 12px;">
+    <p>&copy;ALL RIGHTS RESERVED . 2026</p>
+    <P>DEVELOPED AND DESIGN BY MUHAMMAD KABEER KHAN</P>
+</footer>
 
 </body>
 </html>

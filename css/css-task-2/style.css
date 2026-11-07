@@ -378,7 +378,7 @@ body {
     margin-top: 0;
     margin-bottom: 5px;
 }
-/* Sir ye responsiveness Ai sa krwai hai baki sab mera hai */
+
 @media (max-width: 1100px) {
     .container-1 {
         flex-wrap: wrap;
