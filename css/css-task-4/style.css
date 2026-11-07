@@ -1,0 +1,33 @@
+.container{
+
+    width: 500px;
+     background-color:orange;
+   
+}
+
+.container-2{
+
+    height: 500px;
+    background-color:pink;
+   
+}
+
+.container-3{
+
+    width: 500px;
+    height: 500px;
+    border:10px solid red;
+    background-color:lightgray;
+}
+
+.container-4{
+
+    margin:10px 20px 20px 30px;
+      background-color:lightgray;
+}
+
+.container-5{
+
+    padding:10px 20px 40px 20px;
+   background-color:blue;
+}   

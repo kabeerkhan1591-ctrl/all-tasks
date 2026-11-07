@@ -1,0 +1,29 @@
+CSS TASK 4 – BOX MODEL
+
+ Introduction
+
+In this task, I worked with the CSS Box Model. I used different properties like width, height, padding, margin and border to understand how they work and how they affect HTML elements.
+
+ 1. Width
+
+First, I started with the width property. I gave my first container a width of 500px and added a background colour so I could easily see its content area. This helped me understand that the width property sets the content width to 500px.
+
+ 2. Height
+
+After testing the width property, I added the height property to my second container and set it to 500px. I also added a background colour so I could clearly see the changes. I noticed that the content height became 500px, while the width was automatically adjusted according to the available space.
+
+3. Padding
+
+After testing width and height, I moved to the padding property. I added different padding values to my fifth container and observed that the space between the content and the border increased. I noticed that when I increased the padding, the overall size of the container also increased.
+
+ 4. Margin
+
+After that, I tested the margin property on my fourth container. I added different margin values and observed that the space around the container increased. I noticed that margin creates space outside the border and moves the element away from other elements.
+
+5. Border
+
+Finally, I tested the border property on my third container. I added a 10px solid red border and a light grey background colour. I noticed that the border appears around the content and makes the boundaries of the container visible. I also understood that increasing the border size increases the overall dimensions of the container.
+
+Conclusion
+
+After completing this task, I understood how the CSS Box Model works. I learned how width, height, padding, margin and border work together and how changing their values affects the size and spacing of an element. This practical task helped me understand the Box Model more clearly.
